@@ -9,11 +9,11 @@ const Project = () => {
 
   const projects = [
     {
-      imgUrl: "../../images/Screenshot 2024-12-28 140255.png",
+      imgUrl: "/images/Screenshot 2024-12-28 140255.png",
       projectName: "My Shop"
     },
     {
-      imgUrl: "../../images/portfolio.png",
+      imgUrl: "/images/portfolio.png",
       projectName: "My Portfolio"
     }
   ]

@@ -49,7 +49,7 @@ const Education = () => {
             </div>
 
             <div className="right ">
-              <img src="../../images/frontEndTechnology3.gif" className="mt-20" alt="" />
+              <img src="/images/frontEndTechnology3.gif" className="mt-20" alt="" />
             </div>
           </div>
         </section>

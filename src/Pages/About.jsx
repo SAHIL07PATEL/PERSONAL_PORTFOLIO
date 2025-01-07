@@ -58,7 +58,7 @@ const About = () => {
 
 
         <div className="second w-[80%] lg:w-[33%]">
-          <img src="/assets/images/mission-vision.webp" alt="" />
+          <img src="/images/mission-vision.webp" alt="" />
         </div>
 
         <div className="third-content lg:w-[33%] flex flex-col gap-5">

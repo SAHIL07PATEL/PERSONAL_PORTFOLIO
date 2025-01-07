@@ -78,7 +78,7 @@ const Home = () => {
             </div>
 
             <div className="right-image-container flex justify-center items-center lg:w-[45%] mt-12">
-              <img src="./images/sahil.webp" className="max-md:w-[100%] max-lg:w-[50%] rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
+              <img src="/images/sahil.webp" className="max-md:w-[100%] max-lg:w-[50%] rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
             </div>
           </div>
         </section>
