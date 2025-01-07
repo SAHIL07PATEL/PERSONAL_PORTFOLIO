@@ -39,7 +39,7 @@ const About = () => {
         </div>
 
         <div className="image max-md:hidden max-md:mt-5 w-[70%] md:w-[60%] lg:w-[40%]">
-          <img src="/assets/images/sahil.webp" className=" rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
+          <img src="/images/sahil.webp" className=" rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
         </div>
       </div>
 
