@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom"
+
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import SocialMedia from "./SocialMedia";
 import Education from "./Education";
 import Contact from "./Contact";
-import sahil from ''
 
 const Home = () => {
 
