@@ -61,7 +61,7 @@ const Technologies = () => {
           </div>
 
           <div className="w-[60%] mx-auto max-lg:mt-12 lg:w-[40%]">
-            <img src="../../images/technologyBanner.webp" alt="" />
+            <img src="/images/technologyBanner.webp" alt="" />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ const Technologies = () => {
 
         <div className="tech flex flex-col lg:flex-row justify-between gap-20 items-center">
           <div className="lg:w-[50%]">
-            <img src="../../images/backendTechnology3.gif" alt="" />
+            <img src="/images/backendTechnology3.gif" alt="" />
           </div>
 
           <div className="max-sm:w-full lg:w-[50%] flex max-sm:flex-col  gap-8 flex-wrap max-lg:justify-center">
