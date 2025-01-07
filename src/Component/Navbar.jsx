@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [isclicked, setIsclicked] = useState(null);
+  const [isclicked, setIsclicked] = useState('home');
 
 
 
