@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="copyright w-full h-16 flex justify-center items-center border-spacing-4 border-t shadow-lg">
           <p className=' font-semibold text-sm md:text-[16px]'>
-            Copyright @2024 Sahil Dholariya All rights reserved.
+            Copyright @2024 Sahil Dholariya All rights reserve.
           </p>
         </div>
       </footer>
