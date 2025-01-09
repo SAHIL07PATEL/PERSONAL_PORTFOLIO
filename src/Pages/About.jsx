@@ -43,10 +43,10 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-[80%] mx-auto relative heading flex justify-center items-center mt-20 mb-11 border bg-gray-100  p-10">
-        <h1 className="text-5xl md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
-        <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
-      </div>
+      <div className="bg-gray-100 w-full  p-10 relative heading flex justify-center items-center ">
+            <h1 className="text-[43px] md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
+            <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
+          </div>
 
 
 

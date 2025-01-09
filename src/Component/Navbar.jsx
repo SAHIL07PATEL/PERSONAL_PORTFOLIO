@@ -18,10 +18,10 @@ const Navbar = () => {
           to="/"
           className="flex items-center space-x-3 font-bold text-xl relative"
         >
-        
+
           <div className="text-gray-900 font-extrabold tracking-wide relative">
             <span className="bg-gradient-to-r from-blue-500 via-sky-400 to-blue-500 bg-clip-text text-transparent hover:scale-110 transition-all duration-300 text-4xl tracking-[3px]">
-              SAHIL 
+              SAHIL
             </span>
             <span className="  font-bold text-[12px] absolute left-2 top-8 tracking-[4px] text-blue-600" >DHOLARIYA</span>
           </div>
@@ -31,15 +31,28 @@ const Navbar = () => {
 
 
         <div className="items">
-          <ul className={`max-md:text-white max-md:bg-[#695252] max-md:w-[50%] max-md:h-full flex flex-col absolute z-10 top-0 ${toggleMenu ? ('left-0') : ' left-[-500px]'} max-md:px-10 max-md:py-20 justify-center items-start gap-2 max-md:gap-10 lg:gap-9 md:static md:flex-row transition-all duration-300 ease-in-out`}>
+          <ul className={`max-md:text-white max-md:bg-[#695252] max-sm:w-[100%] max-md:w-[50%] max-md:h-full flex flex-col absolute z-10 top-0 ${toggleMenu ? ('left-0') : ' left-[-700px]'} max-md:px-10 max-md:py-20 justify-center items-start gap-2 max-md:gap-10 lg:gap-9 md:static md:flex-row transition-all duration-300 ease-in-out`}>
 
 
+            
+            <div className=" flex justify-between items-center gap-12 max-sm:gap-28">
             <span className="text-gray-900 font-extrabold tracking-wide">
               <span
                 className="md:hidden text-xl bg-gradient-to-r from-blue-400 via-purple-300 to-white bg-clip-text text-transparent hover:scale-105 font-bold transition duration-300 ">
                 SAHIL DHOLARIYA.
               </span>
+
+
+
             </span>
+
+              <div
+                className="toggle-menu md:hidden flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full shadow-lg cursor-pointer transform transition duration-300 hover:scale-110 hover:shadow-xl"
+                onClick={() => setToggleMenu(!toggleMenu)}
+              >
+                <i class="ri-close-large-line text-white"></i>
+              </div>
+            </div>
 
             {/* 
             <li><a href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf" className="font-semibold hover:underline md:hidden inline-block py-2 px-3 text-white bg-blue-600 rounded-lg shadow-lg  transition duration-300"><i className="ri-user-fill mr-2" ></i>Profile</a></li> */}
@@ -70,6 +83,10 @@ const Navbar = () => {
         >
           <i className="ri-menu-3-line text-white text-2xl" />
         </div>
+
+
+
+
 
       </nav>
     </div>

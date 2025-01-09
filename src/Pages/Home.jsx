@@ -48,7 +48,7 @@ const Home = () => {
 
         <section className=" flex flex-col justify-center items-center w-full max-lg:px-5 lg:w-[80%] mx-auto mt-20">
           <div className="bg-gray-100 w-full  p-10 relative heading flex justify-center items-center ">
-            <h1 className="text-5xl md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
+            <h1 className="text-[43px] md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
             <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
           </div>
 

@@ -6,7 +6,7 @@ const SocialMedia = () => {
       {/* ======================= section - 4 ================== */}
       <section  className="mt-20 w-[80%] mx-auto flex flex-col ">
         <div className="relative heading flex justify-center items-center bg-gray-100 w-full p-5">
-          <h1 className="text-[36px]  md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">SOCIAL MEDIA</h1>
+          <h1 className="text-[33px]  md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">SOCIAL MEDIA</h1>
           <p className="text-xl md:text-4xl font-medium absolute opacity-[.8]">SOCIAL MEDIA</p>
         </div>
 
