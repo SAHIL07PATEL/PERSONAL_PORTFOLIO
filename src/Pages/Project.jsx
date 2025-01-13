@@ -11,7 +11,7 @@ const Project = () => {
     {
       imgUrl: "/images/Screenshot 2024-12-28 140255.png",
       projectName: "My Shop",
-      projectURL:"#"
+      projectURL:"https://github.com/Sahildholariya/E-commerce-user-panel"
     },
     {
       imgUrl: "/images/portfolio.png",
