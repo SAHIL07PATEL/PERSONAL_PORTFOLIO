@@ -10,11 +10,13 @@ const Project = () => {
   const projects = [
     {
       imgUrl: "/images/Screenshot 2024-12-28 140255.png",
-      projectName: "My Shop"
+      projectName: "My Shop",
+      projectURL:"#"
     },
     {
       imgUrl: "/images/portfolio.png",
-      projectName: "My Portfolio"
+      projectName: "My Portfolio",
+      projectURL:"https://sahil07patel.netlify.app/"
     }
   ]
 
@@ -73,12 +75,12 @@ const Project = () => {
                 />
                 <div className="p-4 bg-white">
                   <h3 className="text-xl font-semibold text-gray-800">{item.projectName}</h3>
-                  <Link
-                    to="#"
+                  <a
+                    href={item.projectURL}
                     className="text-blue-500 hover:underline mt-2 block text-sm"
                   >
                     View Project
-                  </Link>
+                  </a>
                 </div>
               </div>
             </>
