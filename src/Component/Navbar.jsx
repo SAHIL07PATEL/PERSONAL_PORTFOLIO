@@ -71,7 +71,8 @@ const Navbar = () => {
         </div>
 
         <div className="profile max-md:hidden">
-          <a href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf" className="inline-block py-2 px-6 text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 font-semibold">
+          <a href="/resume/Sahil-Resume.pdf" 
+                download="SAHIL_RESUME.pdf" className="inline-block py-2 px-6 text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 font-semibold">
             <i className="ri-user-fill mr-2" ></i>  Profile
           </a>
         </div>

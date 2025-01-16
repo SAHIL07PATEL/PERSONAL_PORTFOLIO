@@ -32,9 +32,10 @@ const About = () => {
 
           <div className="buttons flex flex-col lg:flex-row items-start lg:items-center gap-6 mt-5">
             <div>
-              <a href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf" className="bg-gradient-to-r from-blue-500 to-purple-700 py-3 px-10 hover:from-purple-500 hover:to-blue-800 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg">GET  CV</a>
+              <a href="/resume/Sahil-Resume.pdf" 
+                download="SAHIL_RESUME.pdf" className="bg-gradient-to-r from-blue-500 to-purple-700 py-3 px-10 hover:from-purple-500 hover:to-blue-800 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg">GET  CV</a>
             </div>
-            <Link to="" className="bg-gray-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-700 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</Link>
+            <a href="https://github.com/Sahildholariya" className="bg-gray-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-700 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</a>
           </div>
         </div>
 
