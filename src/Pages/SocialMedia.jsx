@@ -34,7 +34,7 @@ const SocialMedia = () => {
           </a>
 
           <a
-            href="https://github.com/SAHIL07PATEL"
+            href="https://github.com/Sahildholariya"
             target="_blank" className="facebook w-full md:w-40 h-40 rounded-3xl bg-gradient-to-br bg-gray-200 flex flex-col justify-center items-center shadow-lg transition-transform transform hover:scale-105 cursor-pointer">
             <i className="ri-github-fill text-6xl mb-2"></i>
             <p className="text-lg font-semibold">GitHub</p>

@@ -47,9 +47,9 @@ const Project = () => {
 
           <div className="buttons flex max-sm:flex-col  lg:flex-row items-center lg:items-center gap-6 mt-5">
             <div>
-              <a href="https://github.com/SAHIL07PATEL" className="bg-gradient-to-r from-gray-600 to-black py-3 px-10 hover:from-black hover:to-gray-600 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg"><i className="ri-github-fill pr-2 text-[18px]"></i>GITHUB</a>
+              <a href="https://github.com/Sahildholariya" className="bg-gradient-to-r from-gray-600 to-black py-3 px-10 hover:from-black hover:to-gray-600 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg"><i className="ri-github-fill pr-2 text-[18px]"></i>GITHUB</a>
             </div>
-            <a to="" href="https://github.com/SAHIL07PATEL" className="bg-gray-300 hover:bg-gradient-to-r hover:from-black hover:to-gray-600 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</a>
+            <a to="" href="https://github.com/Sahildholariya" className="bg-gray-300 hover:bg-gradient-to-r hover:from-black hover:to-gray-600 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</a>
           </div>
         </div>
 
