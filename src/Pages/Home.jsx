@@ -36,7 +36,7 @@ const Home = () => {
               Hello, I am a <span ref={el} />{" "}
             </p>
             <div>
-              <a  href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf"  className="px-8 py-3 bg-blue-700 text-lg font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+              <a  href="/SAHIL_RESUME.pdf" download="/resume/SAHIL_RESUME.pdf"  className="px-8 py-3 bg-blue-700 text-lg font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                 Download CV
               </a>
             </div>
