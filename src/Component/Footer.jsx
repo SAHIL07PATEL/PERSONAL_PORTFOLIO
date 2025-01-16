@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="  flex flex-col md:flex-row items-start md:flex-wrap gap-9 max-lg:gap-12 justify-around">
             <div className='space-y-8 w-full md:w-[40%]'>
               <p className='text-3xl font-semibold'>SAHIL DHOLARIYA.</p>
-              <p className='font-semibold'>A group of creative designers and software developers who work together to provide the best work possible and assist clients in turning their concepts into successful realities.</p>
+              <p className='font-semibold'>I’m excited about the rapidly evolving world of web development and web designing, where technology is reshaping how we interact and experience the digital world.</p>
               <div className="icons">
                 <i className="ri-linkedin-box-fill text-3xl cursor-pointer"></i>
                 <i className="ri-instagram-line text-3xl cursor-pointer"></i>
