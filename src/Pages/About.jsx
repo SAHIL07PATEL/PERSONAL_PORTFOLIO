@@ -35,7 +35,7 @@ const About = () => {
               <a href="/resume/Sahil-Resume.pdf" 
                 download="SAHIL_RESUME.pdf" className="bg-gradient-to-r from-blue-500 to-purple-700 py-3 px-10 hover:from-purple-500 hover:to-blue-800 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg">GET  CV</a>
             </div>
-            <a href="https://github.com/Sahildholariya" className="bg-gray-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-700 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</a>
+            <a to="" className="bg-gray-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-700 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</a>
           </div>
         </div>
 
@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-gray-100 w-full  p-10 relative heading flex justify-center items-center ">
+      <div className="bg-gray-100 w-[80%] mx-auto m-10 p-10 relative heading flex justify-center items-center ">
             <h1 className="text-[43px] md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
             <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
           </div>

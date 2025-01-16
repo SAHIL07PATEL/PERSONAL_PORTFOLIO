@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
@@ -11,6 +11,20 @@ const Navbar = () => {
     setIsclicked(linkName)
     setToggleMenu(false)
   }
+
+
+  useEffect(() => {
+    if (toggleMenu) {
+      document.body.style.overflow = "hidden"; // Prevent scrolling
+    } else {
+      document.body.style.overflow = ""; // Restore scrolling
+    }
+    return () => {
+      document.body.style.overflow = ""; // Cleanup on unmount
+    };
+  }, [toggleMenu]);
+
+
   return (
     <div>
       <nav className="flex w-[80%] mx-auto justify-between items-center py-9">
@@ -31,14 +45,14 @@ const Navbar = () => {
 
 
         <div className="items">
-          <ul className={`max-md:text-white max-md:bg-[#695252] max-sm:w-[100%] max-md:w-[50%] max-md:h-full flex flex-col absolute z-10 top-0 ${toggleMenu ? ('left-0') : ' left-[-700px]'} max-md:px-10 max-md:py-20 justify-center items-start gap-2 max-md:gap-10 lg:gap-9 md:static md:flex-row transition-all duration-300 ease-in-out`}>
+          <ul className={`max-md:text-white max-md:bg-[#242121] max-md:w-[100%] max-md:h-full flex flex-col absolute z-10 top-0 ${toggleMenu ? ('left-0') : ' left-[-800px]'} max-md:px-10 max-md:py-20 justify-center items-center gap-2 max-md:gap-10 lg:gap-9 md:static md:flex-row transition-all duration-300 ease-in-out `}>
 
 
             
-            <div className=" flex justify-between items-center gap-12 max-sm:gap-28">
+            <div className=" flex justify-around items-center w-full max-sm:gap-28 ">
             <span className="text-gray-900 font-extrabold tracking-wide">
               <span
-                className="md:hidden text-xl bg-gradient-to-r from-blue-400 via-purple-300 to-white bg-clip-text text-transparent hover:scale-105 font-bold transition duration-300 ">
+                className="md:hidden text-xl text-white text-transparent hover:scale-105 font-bold transition duration-300 ">
                 SAHIL DHOLARIYA.
               </span>
 
@@ -47,23 +61,22 @@ const Navbar = () => {
             </span>
 
               <div
-                className="toggle-menu md:hidden flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full shadow-lg cursor-pointer transform transition duration-300 hover:scale-110 hover:shadow-xl"
+                className="toggle-menu md:hidden flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full shadow-lg cursor-pointer transform transition duration-300 hover:scale-110 hover:shadow-xl "
                 onClick={() => setToggleMenu(!toggleMenu)}
               >
                 <i class="ri-close-large-line text-white"></i>
               </div>
             </div>
 
-            {/* 
-            <li><a href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf" className="font-semibold hover:underline md:hidden inline-block py-2 px-3 text-white bg-blue-600 rounded-lg shadow-lg  transition duration-300"><i className="ri-user-fill mr-2" ></i>Profile</a></li> */}
+  
 
-            <li><Link to="/" onClick={() => handleClicked('home')} className={`font-semibold px-5 py-2 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 transition-all duration-200 ease-in-out hover:text-white  bg-gray-300   ${isclicked == 'home' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('text-black')}`}>Home</Link></li>
+            <li><Link to="/" onClick={() => handleClicked('home')} className={`font-semibold text-[15px] py-2 px-7 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white transition-all duration-200 ease-in-out  ${isclicked == 'home' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('')}`}>Home</Link></li>
 
-            <li><Link to="/about" onClick={() => handleClicked('about')} className={`font-semibold px-5 py-2 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 transition-all duration-200 ease-in-out hover:text-white  bg-gray-300   ${isclicked == 'about' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('text-black')}`}>About</Link></li>
+            <li><Link to="/about" onClick={() => handleClicked('about')} className={`font-semibold text-[15px] py-2 px-7 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white transition-all duration-200 ease-in-out  ${isclicked == 'about' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('')}`}>About</Link></li>
 
-            <li><Link to="/projects" onClick={() => handleClicked('project')} className={`font-semibold px-5 py-2 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 transition-all duration-200 ease-in-out hover:text-white  bg-gray-300   ${isclicked == 'project' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('text-black')}`}>Projects</Link></li>
+            <li><Link to="/projects" onClick={() => handleClicked('project')} className={`font-semibold text-[15px] py-2 px-7 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white transition-all duration-200 ease-in-out  ${isclicked == 'project' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('')}`}>Projects</Link></li>
 
-            <li><Link to="/tech" onClick={() => handleClicked('tech')} className={`font-semibold px-5 py-2 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 transition-all duration-200 ease-in-out hover:text-white  bg-gray-300   ${isclicked == 'tech' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('text-black')}`}>Technologies</Link></li>
+            <li><Link to="/tech" onClick={() => handleClicked('tech')} className={`font-semibold text-[15px] py-2 px-7 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white transition-all duration-200 ease-in-out   ${isclicked == 'tech' ? ('text-white underline bg-gradient-to-r from-blue-500 to-purple-500 px-5 py-2 rounded-lg ') : ('')}`}>Technologies</Link></li>
 
 
 
@@ -72,7 +85,7 @@ const Navbar = () => {
 
         <div className="profile max-md:hidden">
           <a href="/resume/Sahil-Resume.pdf" 
-                download="SAHIL_RESUME.pdf" className="inline-block py-2 px-6 text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 font-semibold">
+                download="SAHIL_RESUME.pdf" className="inline-block py-2 px-6 text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 font-semibold flex-nowrap">
             <i className="ri-user-fill mr-2" ></i>  Profile
           </a>
         </div>
