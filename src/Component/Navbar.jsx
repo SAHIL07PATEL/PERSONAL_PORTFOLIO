@@ -45,7 +45,7 @@ const Navbar = () => {
 
 
         <div className="items">
-          <ul className={`max-md:text-white max-md:bg-[#242121] max-md:w-[100%] max-md:h-full flex flex-col absolute z-10 top-0 ${toggleMenu ? ('left-0') : ' left-[-800px]'} max-md:px-10 max-md:py-20 justify-center items-center gap-2 max-md:gap-10 lg:gap-9 md:static md:flex-row transition-all duration-300 ease-in-out `}>
+          <ul className={`max-md:text-white max-md:bg-[#242121] max-md:w-[100%] max-md:h-full flex flex-col absolute z-10 top-0 ${toggleMenu ? ('lef  t-0') : ' left-[-800px]'} max-md:px-10 max-md:py-20 justify-center items-center gap-2 max-md:gap-10 lg:gap-9 md:static md:flex-row transition-all duration-300 ease-in-out `}>
 
 
             
