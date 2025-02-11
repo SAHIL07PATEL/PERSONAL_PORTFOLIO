@@ -42,7 +42,7 @@ const Project = () => {
 
       <div className='container w-[80%] mx-auto mt-16 flex flex-col lg:flex-row gap-11 justify-center lg:items-start items-center'>
         <div className="left-content lg:w-[50%] flex flex-col gap-10 py-16">
-          <h1 className=' text-xl md:text-3xl font-bold'><span className='text-purple-700'>WELOCOME </span> <span ref={el} /></h1>
+          <h1 className=' text-xl md:text-3xl font-bold'><span className='text-purple-700 max-sm:text-sm'>WELOCOME </span > <span className="max-sm:text-sm" ref={el} /></h1>
           <p className="font-semibold md:text-[18px]">A project page is a dedicated webpage or section within a website that provides detailed information about a specific project. It is typically used to showcase the objectives, scope, progress, and outcomes of a particular project.</p>
 
           <div className="buttons flex max-sm:flex-col  lg:flex-row items-center lg:items-center gap-6 mt-5">
