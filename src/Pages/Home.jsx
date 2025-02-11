@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import SocialMedia from "./SocialMedia";
@@ -36,7 +36,8 @@ const Home = () => {
               Hello, I am a <span ref={el} />{" "}
             </p>
             <div>
-              <a  href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf"  className="px-8 py-3 bg-blue-700 text-lg font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+              <a  href="/resume/Sahil-Resume.pdf" 
+                download="SAHIL_RESUME.pdf"   className="px-8 py-3 bg-blue-700 text-lg font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                 Download CV
               </a>
             </div>
@@ -48,7 +49,7 @@ const Home = () => {
 
         <section className=" flex flex-col justify-center items-center w-full max-lg:px-5 lg:w-[80%] mx-auto mt-20">
           <div className="bg-gray-100 w-full  p-10 relative heading flex justify-center items-center ">
-            <h1 className="text-5xl md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
+            <h1 className="text-[43px] md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
             <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
           </div>
 
@@ -77,7 +78,7 @@ const Home = () => {
             </div>
 
             <div className="right-image-container flex justify-center items-center lg:w-[45%] mt-12">
-              <img src="../../images/sahil.webp" className="max-md:w-[100%] max-lg:w-[50%] rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
+              <img src="/images/sahil.webp" className="max-md:w-[100%] max-lg:w-[50%] rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
             </div>
           </div>
         </section>

@@ -32,21 +32,22 @@ const About = () => {
 
           <div className="buttons flex flex-col lg:flex-row items-start lg:items-center gap-6 mt-5">
             <div>
-              <a href="/SAHIL_RESUME.pdf" download="../../resume/SAHIL_RESUME.pdf" className="bg-gradient-to-r from-blue-500 to-purple-700 py-3 px-10 hover:from-purple-500 hover:to-blue-800 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg">GET  CV</a>
+              <a href="/resume/Sahil-Resume.pdf" 
+                download="SAHIL_RESUME.pdf" className="bg-gradient-to-r from-blue-500 to-purple-700 py-3 px-10 hover:from-purple-500 hover:to-blue-800 transition-all duration-200 ease-in-out  font-semibold text-white rounded-lg">GET  CV</a>
             </div>
-            <Link to="" className="bg-gray-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-700 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</Link>
+            <a to="" className="bg-gray-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-700 hover:text-white transition-all duration-200 ease-in-out py-3 px-10  font-semibold  rounded-lg">Explore More</a>
           </div>
         </div>
 
         <div className="image max-md:hidden max-md:mt-5 w-[70%] md:w-[60%] lg:w-[40%]">
-          <img src="/assets/images/sahil.webp" className=" rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
+          <img src="/images/sahil.webp" className=" rounded-xl shadow-xl hover:scale-110 cursor-pointer transition-all duration-200 ease-in-out" alt="" />
         </div>
       </div>
 
-      <div className="w-[80%] mx-auto relative heading flex justify-center items-center mt-20 mb-11 border bg-gray-100  p-10">
-        <h1 className="text-5xl md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
-        <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
-      </div>
+      <div className="bg-gray-100 w-[80%] mx-auto m-10 p-10 relative heading flex justify-center items-center ">
+            <h1 className="text-[43px] md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">ABOUT US</h1>
+            <p className="text-2xl md:text-4xl font-medium absolute opacity-[.8]">ABOUT US</p>
+          </div>
 
 
 
@@ -58,7 +59,7 @@ const About = () => {
 
 
         <div className="second w-[80%] lg:w-[33%]">
-          <img src="/assets/images/mission-vision.webp" alt="" />
+          <img src="/images/mission-vision.webp" alt="" />
         </div>
 
         <div className="third-content lg:w-[33%] flex flex-col gap-5">

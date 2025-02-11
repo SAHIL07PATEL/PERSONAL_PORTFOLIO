@@ -6,7 +6,7 @@ const SocialMedia = () => {
       {/* ======================= section - 4 ================== */}
       <section  className="mt-20 w-[80%] mx-auto flex flex-col ">
         <div className="relative heading flex justify-center items-center bg-gray-100 w-full p-5">
-          <h1 className="text-[36px]  md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">SOCIAL MEDIA</h1>
+          <h1 className="text-[33px]  md:text-[80px] font-extrabold -tracking-tighter opacity-[.1]">SOCIAL MEDIA</h1>
           <p className="text-xl md:text-4xl font-medium absolute opacity-[.8]">SOCIAL MEDIA</p>
         </div>
 
@@ -34,7 +34,7 @@ const SocialMedia = () => {
           </a>
 
           <a
-            href="https://github.com/SAHIL07PATEL"
+            href="https://github.com/Sahildholariya"
             target="_blank" className="facebook w-full md:w-40 h-40 rounded-3xl bg-gradient-to-br bg-gray-200 flex flex-col justify-center items-center shadow-lg transition-transform transform hover:scale-105 cursor-pointer">
             <i className="ri-github-fill text-6xl mb-2"></i>
             <p className="text-lg font-semibold">GitHub</p>
